@@ -5,11 +5,15 @@
 //  Created by Dmitry Myasnikov on 18.11.2024.
 //
 /// Tested by DM
-/// 
+
+
+
 import SwiftUI
 import SwiftData
 
 print("Hello World")
+
+print("Hello Git")
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
