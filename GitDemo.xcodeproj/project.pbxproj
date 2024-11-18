@@ -15,6 +15,7 @@
 		32F4C7482CEB1CA900CD663B /* GitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F4C7472CEB1CA900CD663B /* GitDemoTests.swift */; };
 		32F4C7522CEB1CA900CD663B /* GitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F4C7512CEB1CA900CD663B /* GitDemoUITests.swift */; };
 		32F4C7542CEB1CA900CD663B /* GitDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F4C7532CEB1CA900CD663B /* GitDemoUITestsLaunchTests.swift */; };
+		32F4C7612CEB1D1B00CD663B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32F4C7602CEB1D1B00CD663B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		32F4C74D2CEB1CA900CD663B /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32F4C7512CEB1CA900CD663B /* GitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoUITests.swift; sourceTree = "<group>"; };
 		32F4C7532CEB1CA900CD663B /* GitDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32F4C7602CEB1D1B00CD663B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				32F4C7342CEB1CA700CD663B /* GitDemoApp.swift */,
 				32F4C7362CEB1CA700CD663B /* ContentView.swift */,
+				32F4C7602CEB1D1B00CD663B /* .gitignore */,
 				32F4C7382CEB1CA700CD663B /* Item.swift */,
 				32F4C73A2CEB1CA800CD663B /* Assets.xcassets */,
 				32F4C73C2CEB1CA900CD663B /* Preview Content */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32F4C73E2CEB1CA900CD663B /* Preview Assets.xcassets in Resources */,
+				32F4C7612CEB1D1B00CD663B /* .gitignore in Resources */,
 				32F4C73B2CEB1CA900CD663B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
